@@ -7,7 +7,7 @@
     "iron-collapse": "PolymerElements/iron-collapse#^1.0.0",
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
-    "prefixed-textarea": "gick/prefixed-textarea#^0.0.3"
+    "prefixed-textarea": "REVERIES-project/prefixed-textarea#^0.0.4"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
