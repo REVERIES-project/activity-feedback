@@ -23,17 +23,22 @@
 
       <button aria-controls="feedback" onclick="showCorrect('#feedback')">Correct anwswer</button>
       <button aria-controls="feedback" onclick="showWrong('#feedback')">Wrong anwswer</button>
+      <button aria-controls="feedback" onclick="reset('#feedback')">Reset</button>
       <activity-feedback id="feedback" correct-message="Bravo c'est correct" wrong-message="Dommage c'est faux"></activity-feedback>
     </div>
   </template>
   <script>
     function showCorrect(selector) {
-      document.querySelector(selector).showCorrect();
+      document.querySelector(selector).responseStatus='correct';
     }
 
     function showWrong(selector) {
-      document.querySelector(selector).showWrong();
+      document.querySelector(selector).responseStatus='wrong';
     }
+    function reset(selector) {
+      document.querySelector(selector).responseStatus='';
+    }
+
   </script>
 
 </body>

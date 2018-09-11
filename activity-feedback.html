@@ -70,8 +70,29 @@ Such activity requires to provide a textual feedback, which are here defines as 
         this.$.correct.hide();
         this.$.wrong.hide();
       },
+      _responseObserver(newval){
+        if(newval==='correct'){
+          this.showCorrect()
+          return
+        }
+        if(newval==='wrong'){
+          this.showWrong()
+          return
+        }
+        this.hideAll()
 
+      },
       properties: {
+        /**
+        * The status of the current response, can be correct, wrong or the empty string
+        * the empty string is the default, when no response has been given yet
+        **/
+        responseStatus:{
+          type: String,
+          notify: true,
+          value:'',
+          observer:'_responseObserver'
+        },
         /**
          * The text message to display when the user success at activity
          **/
