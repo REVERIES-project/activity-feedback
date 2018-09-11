@@ -1,0 +1,29 @@
+{
+  "name": "activity-feedback",
+  "description": "This component is designed to be used with activity requiring feedback",
+  "main": "activity-feedback.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0",
+    "iron-collapse": "PolymerElements/iron-collapse#^1.0.0",
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
+    "prefixed-textarea": "REVERIES-project/prefixed-textarea"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
+    "web-component-tester": "^6.0.0-prerelease.5",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  },
+  "homepage": "https://github.com/REVERIES-project/activity-feedback",
+  "_release": "8a39b6f264",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "8a39b6f2646c556c9aaff6bb8c5192ea510e0c57"
+  },
+  "_source": "https://github.com/REVERIES-project/activity-feedback.git",
+  "_target": "master",
+  "_originalSource": "REVERIES-project/activity-feedback",
+  "_direct": true
+}
